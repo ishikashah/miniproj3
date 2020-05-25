@@ -1,0 +1,89 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Lucida Console', Monaco, monospace;
+  box-sizing: border-box;
+}
+body {
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-image:url(https://motionarray.imgix.net/preview-197683-GMs6a307XF-high_0014.jpg);
+  background-size: cover;
+  background-attachment:fixed;
+  margin: auto;
+}
+
+.container {
+  font-family: 'Lucida Console', Monaco, monospace;
+  width: 40%;
+}
+.container:before,.container:after {
+  border-top: 3px double #123;
+  content: '';
+  display: table-cell;
+  width: 50%;
+  border-top-style: solid;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+.First, .Last, .email {
+  width: 300px;
+  margin: 5px auto 5px auto;
+  padding: 5px;
+  font-size: 90%;
+  background: white;
+}
+
+.submit{
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.submit:hover{
+  cursor:pointer;
+}
+p {
+  padding:2px;
+  color:white;
+  font-size: 20px;
+}
+.container-out {
+  padding: 30px;  
+  font-family: 'Lucida Console', Monaco, Monospace;
+  font-size: 30px, ;
+  text-align: center;
+  color: white;
+  font-weight:bold;
+}
+.container {
+  font-family: 'Lucida Console', Monaco, monospace;
+  padding: 16px;
+}
+
